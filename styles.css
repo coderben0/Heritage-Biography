@@ -1,0 +1,204 @@
+body {
+}
+
+#title {
+  background-color: #222831;
+  padding-right: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Pinyon Script", cursive;
+  font-size: 50px;
+  color: white;
+  position: relative;
+  top: 100px;
+  left: 25px;
+}
+
+a {
+  marign: auto;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-family: "Pinyon Script", cursive;
+  padding: 0 20px 0 20px;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Parisienne", cursive;
+  margin-top: 200px;
+  font-size: 50px;
+  color: white;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  color: white;
+}
+
+label {
+  font-family: "Parisienne", cursive;
+  color: white;
+}
+
+/* Contact */
+.contact {
+  background-color: #222831;
+}
+
+.contact-section {
+  text-align: center;
+}
+
+.info {
+  color: white;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+  color: white;
+}
+
+.navbar-brand {
+  font-family: "Parisienne", cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Parisienne", cursive;
+}
+
+/* Main */
+.main {
+  height: 54rem;
+  background-size: 2560px 1600px;
+  background-image: url("../images/palm-trees.jpg");
+}
+
+.quote {
+  color: white;
+  position: relative;
+  top: 10rem;
+}
+
+.homeText {
+  color: white;
+  position: relative;
+  top: 2rem;
+  padding: 10rem;
+}
+
+/* Films */
+.films {
+  background-color: #222831;
+}
+
+.VideoContainer {
+  text-align: center;
+  margin-top: 10%;
+}
+
+/* Testimonials */
+.testimonials {
+  background-color: #222831;
+}
+
+.t_paragraph {
+  margin-top: 3rem;
+  margin-left: 3rem;
+  padding-right: 2rem;
+}
+
+.t_image {
+  display: block;
+  margin: 3rem auto;
+  width: 15%;
+}
+
+.box {
+  width: 300px;
+  margin: 50px auto;
+  background: #00bfb6;
+  padding: 20px;
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: arial;
+  position: relative;
+}
+
+.sb2:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid #00bfb6;
+  border-top: 10px solid #00bfb6;
+  border-bottom: 10px solid transparent;
+  left: -19px;
+  top: 6px;
+}
+/* Faq */
+.faq {
+  background-color: #222831;
+}
+
+/* Footer */
+
+#footer {
+  text-align: center;
+  background-color: #222831;
+  padding: 2rem;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: white;
+}
+
+.cp {
+  color: white;
+}
+
+/* Seminars */
+.seminars {
+  background-color: #222831;
+}
+
+/* Responsiveness */
+
+@media (max-width: 1028px) {
+  /* Home */
+  .main {
+    height: 125rem;
+    background-size: 2560px 1600px;
+    background-image: url("../images/palm-trees.jpg");
+  }
+
+  /* Testimonials */
+  .t_image {
+    margin-top: 4rem;
+    width: 20%;
+  }
+
+  .t_paragraph {
+    margin-top: 5rem;
+    margin-right: 3rem;
+  }
+}
