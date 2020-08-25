@@ -87,7 +87,7 @@ label {
 .main {
   height: 54rem;
   background-size: 2560px 1600px;
-  background-image: url("../images/palm-trees.jpg");
+  background-image: url("palm-trees.jpg");
 }
 
 .quote {
